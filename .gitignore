@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+*.csv
+*.pdf
+*.log
