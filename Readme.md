@@ -1,5 +1,7 @@
 # 🛡️ Aegis Net — Cyber Threat Detection System
 
+![Aegis Net — Cyber Threat Detection System](Aegis-Net.png)
+
 Aegis Net is a machine-learning–based cyber threat detection system designed to analyze network flow data and classify traffic as **Safe** or **Attack**.  
 The project focuses on **clarity, explainability, and practical deployment** using a Streamlit-based web interface.
 
@@ -33,6 +35,8 @@ Each prediction is based on the following flow-level features:
 - Initial Window Bytes (Backward)
 
 All input data is validated and preprocessed before prediction.
+
+Dataset Link: https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
 
 ## 3. System Architecture
 
@@ -77,6 +81,8 @@ To improve transparency and trust, Aegis Net provides:
 
 This makes the system suitable for both learning and demonstration purposes.
 
+![Aegis Net — Cyber Threat Detection System](recall_report.PNG)
+
 ## 6. Installation & Usage
 
 ### Requirements
@@ -96,6 +102,9 @@ streamlit run app.py
 ```
 
 Your app will be live at **port: 8501**
+
+![Aegis Net — Cyber Threat Detection System](Aegis-Net(1).png)  
+![Aegis Net — Cyber Threat Detection System](Aegis-Net(2).png)
 
 ## License
 
