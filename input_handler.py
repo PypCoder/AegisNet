@@ -27,7 +27,7 @@ def get_user_input(cols):
         user_inputs = np.array([list(manual_data.values())])
 
     elif input_method == "Generate Random Data":
-        n_samples = st.number_input("Number of flows to generate", min_value=1, max_value=20, value=5)
+        n_samples = st.number_input("Number of flows to generate", min_value=1, value=5)
         np.random.seed(42)
         random_data = np.random.rand(n_samples, len(cols)) * 1000
         user_inputs = random_data
